@@ -15,4 +15,5 @@ public interface SquareService {
 	//public List<Square> list();
 	
 	public List<SquareBean> list();
+	public void delete(int id);
 }

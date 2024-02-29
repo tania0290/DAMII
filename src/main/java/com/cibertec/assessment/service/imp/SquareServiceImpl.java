@@ -95,7 +95,12 @@ public class SquareServiceImpl implements SquareService{
 		}
 	}
 
-
+	@Override
+	public void delete(int id) {
+		
+		squareRepo.deleteById(id);
+		
+	}
 
 
 }
